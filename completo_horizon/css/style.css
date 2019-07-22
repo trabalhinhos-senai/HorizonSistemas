@@ -1,0 +1,877 @@
+/* CSS Referente a pagina de Login */
+
+.loginHorizon{
+    text-align: center;
+}
+
+#formularioLogin {
+    margin: 20px 0 0 0;
+    text-align: -webkit-center;
+}
+
+#tamanhoLogin{
+    width: 230px;
+}
+
+#botaoLogin {
+    text-align: center;
+    margin: 23px 0px 0px 0px;
+    
+}
+
+#botaoLogin a{
+    color: black;
+    font-weight: 450;
+}
+
+#botaoLogin a:hover {
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+#tituloLogin {
+    margin: 0px 0px 40px 0px;
+}
+
+#logoLogin {
+    margin: 25px 0px 0px 0px;
+}
+
+.footer {
+    bottom: 0px;
+    position: absolute;
+}
+
+.clear{
+    clear: both;
+}
+
+.txtLogin {
+    float: left;
+}
+
+.camposLogin {
+    margin: 0px 0px 0px 0px;
+    float: right;
+    width: 182px;
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página do menu */
+
+.homeHorizon{
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+#centroTela {
+    background-color: white; 
+    width: 1070px;
+    height: 713px;
+    margin: 16px 0px 0px 0px;
+    padding: 25% 0% 0% 0%;
+}
+
+#centroTela a:hover{
+    text-decoration: none;
+}
+
+.botaoLogout{
+    width: 167px;
+    height: 35px;
+    margin: 216px 18px 0px 0px;
+    color: black;
+    font-size: 17px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.iconesHome figure{
+    float: left;
+    width: 112px;
+    margin: 16.5px 16px 0px 22px;
+}
+
+.iconesHome figure a{
+    text-decoration: none;
+    color: black;
+}
+
+.botaoLogout:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(70, 70, 70)), to(rgb(167, 167, 167)));
+    color: white;
+}
+
+.tituloMenu{
+    padding: 8px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.navegacaoHome{
+    margin: 16px 0px 0px 0px;
+    width: 1070px;
+    height: 190px;
+    background-color: white;
+}
+
+.bodyCinza {
+    background-color: #f0f0f0;
+}
+
+.alinhamentoIcones {
+    padding: 16px 0px 0px 0px;
+    font-weight: 450;
+    font-size: 19px;
+    width: 128px;
+    height: 155px;
+}
+
+.alinhamentoIcones:hover {
+    background: -webkit-gradient(linear, center bottom, center top, from(#1e4a79), to(rgb(255, 255, 255)));
+    color: white;
+    border-radius: 10px;
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página do sobre */
+
+.selecionado {
+    padding: 16px 0px 0px 0px;
+    background: -webkit-gradient(linear, center bottom, center top, from(#1e4a79), to(rgb(255, 255, 255)));
+    font-weight: 450;
+    font-size: 19px;
+    width: 128px;
+    height: 155px;
+    color:white;
+    border-radius: 10px;
+}
+
+.fecharTelaSobre {
+    outline-style: groove;
+    outline-color: black;
+    outline-width: 1px;
+    width: 167px;
+    height: 35px;
+    margin: 0px 18px 0px 0px;
+    color: black;
+    font-size: 17px;
+    padding: 1.5px 0px 0px 0px;
+    float: right;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(199, 199, 199)), to(rgb(250, 250, 250)));
+}
+
+.fecharTelaSobre:hover {
+    background: -webkit-gradient(linear, center top, center bottom, from(rgb(141, 141, 141)), to(rgb(228, 226, 226)));
+    font-weight: bold;
+}
+
+.botoesSobre {
+    width: 1070px;
+    height: 40px;
+    padding: 217px 0px 0px 0px;
+}
+
+#centroTelaSobre a:hover{
+    text-decoration: none;
+}
+
+#centroTelaSobre {
+    background-color: white; 
+    width: 1070px;
+    height: 713px;
+    margin: 16px 0px 0px 0px;
+    padding: 0% 0% 0% 0%;
+}
+
+#tituloSobre {
+    padding: 10px 0px 15px 20px;
+    text-align: left;
+}
+
+#textoSobre {
+    padding: 0px 70px 40px 70px;
+    text-align: left;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#versao{
+    margin: 28px 935px 0px 0px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.alinhamentoSobre{
+    width: 1070px;
+    height: 442px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página do cliente */
+
+#centroTelaClientes {
+    background-color: white; 
+    width: 1070px;
+    height: 580px;
+    margin: 7px 0px 0px 0px;
+    padding: 0% 0% 0% 0%;
+}
+
+#tituloJanela {
+    background-color: white; 
+    width: 1070px;
+    height: 52px;
+    margin: 16px 0px 0px 0px;
+}
+
+.salvarTelas{
+    width: 39px;
+    height: 39px;
+    margin: 0px 10px 0px 22px;
+    color: black;
+    font-size: 17px;
+    padding: 2.5px 0px 0px 0px;
+    float: left;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.fecharTelas {
+    width: 39px;
+    height: 39px;
+    margin: 0px 18px 0px 0px;
+    color: black;
+    font-size: 17px;
+    padding: 2.5px 0px 0px 0px;
+    float: right;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.salvarTelaConfig {
+    width: 39px;
+    height: 39px;
+    margin: 0px 0px 0px 22px;;
+    color: black;
+    font-size: 17px;
+    padding: 2.5px 0px 0px 0px;
+    float: left;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+    border: none;
+}
+
+.addOrcamento {
+    width: 39px;
+    height: 39px;
+    margin: 9px 0px 0px 23px;   
+    color: black;
+    font-size: 17px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+    border: none;
+}
+
+.usuariosTela {
+    width: 39px;
+    height: 39px;
+    margin: 0px 10px 0px 0px;
+    color: black;
+    font-size: 17px;
+    padding: 2.5px 0px 0px 0px;
+    float: right;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+
+.adicionarTelas {
+    width: 39px;
+    height: 39px;
+    margin: 0px 0px 0px 22px;
+    color: black;
+    font-size: 17px;
+    padding: 2.5px 0px 0px 0px;
+    float: left;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.modificarTelas {
+    width: 29px;
+    height: 29px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+    font-size: 0px;
+    padding: 2px 0px 0px 0px;
+    float: right;
+    background-color: #d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.excluirTelas {
+    width: 29px;
+    height: 29px;
+    margin: 0px 0px 0px 10px;
+    color: black;
+    font-size: 0px;
+    padding: 2px 0px 0px 0px;
+    float: right;
+    background-color:#d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.pesquisarTelas {
+    width: 29px;
+    height: 28px;
+    margin: 5px 0px 0px 10px;
+    color: black;
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    background-color: #d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+.inputPesquisa{
+    float: left;
+    font-size: 19.5px;
+    margin: 4px 0px 0px 10px;
+}
+
+.selectPesquisa{
+    float: left;
+    font-size: 20px;
+    margin: 4px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.botoesTelas {
+    background-color: white;
+    width: 1070px;
+    height: 67px;
+    margin: 7px 0px 0px 0px;
+    padding: 13px 0px 0px 0px;
+}
+
+.excluirTelas:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.adicionarTelas:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.modificarTelas:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.fecharTelas:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.pesquisarTelas:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.usuariosTela:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.salvarTelas:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.salvarTelaConfig:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.excluirOrcamento:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+.addOrcamento:hover{
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(105, 105, 105)), to(rgb(194, 194, 194)));
+    font-weight: bold;
+}
+
+#tamanhoTabelas{
+    width: 100%;
+    max-height: 90%;
+}
+
+.barraRolagem {
+    overflow-y: auto;
+    width: 100%;
+    height: 580px;
+    padding: 0px 0px 0px 0px;
+}
+
+.alinharFiltroCliente {
+    margin: 0% 0% 0% 26.8%;
+}
+
+.alinharFiltroProduto {
+    margin: 0% 0% 0% 25%;
+}
+
+.alinharFiltroOrcamento {
+    margin: 0% 0% 0% 25.4%;
+}
+
+.alinharFiltroFornecedor {
+    margin: 0% 0% 0% 32.3%;
+}
+
+.alinharFiltroCadastroUser{
+    margin: 0% 0% 0% 31%;
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página do fornecedor */
+
+#centroTelaFornecedores {
+    background-color: white; 
+    width: 1070px;
+    height: 580px;
+    margin: 7px 0px 0px 0px; 
+    padding: 0% 0% 0% 0%;
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página de orçamentos */
+
+#centroTelaOrcamentos {
+    background-color: white; 
+    width: 1070px;
+    height: 580px;
+    margin: 7px 0px 7px 0px;
+    padding: 0% 0% 0% 0%;
+}
+
+#cabecalho{
+    background-color: white; 
+    width: 1070px;
+    height: 97px;
+    margin: 7px 0px 7px 0px;
+}
+
+.centroTelaOrcamentoRolagem{
+    background-color: white; 
+    width: 1070px;
+    height: 476px;
+    margin: 7px 0px 7px 0px;
+}
+
+.barraRolagemOrcamento {
+    overflow-y: auto;
+    width: 100%;
+    height: 297px;
+    margin: 0px 0px 0px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: #d3d3d3;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.alinhamentoCamposPrecoTotal{
+    padding: 15px 18px 38px 22px;
+    text-align: right;
+}
+
+.alinhamentoCampoObs {
+    margin: 48px 0px 0px 0px;
+}
+
+.alinhamentoCamposPrecoFinal{
+    margin: 0px 0px 0px 0px;
+    width: 374px;
+    height: 111px;
+    float: right;
+}
+
+.alinhamentoCamposPrecoFinal1{
+    text-align: left;
+    padding: 20.5px 0px 0px 0px;
+    float: left;
+}
+
+.alinhamentoTituloPreco{
+    float: left;
+    padding: 29.5px 0px 5px 0px;
+}
+
+.texto{
+    float: left;
+    width: 174px;
+    margin: -65px 0px 0px 34px;
+}
+
+.caixa{
+    float: right;
+    width: 160px;
+    margin: -62px -2px 0px 0px;
+}
+
+.alinhamentoCamposExcluirFirst{
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 41px 0px 7px 0px;
+    float: left;
+}
+
+.alinhamentoCamposExcluir{
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 19px 0px 0px 0px;
+    float: left;
+}
+
+.excluirOrcamento {
+    width: 29px;
+    height: 29px;
+    margin: 0px 0px 0px 10px;
+    color: black;
+    font-size: 0px;
+    padding: 2px 0px 0px 2.5px;
+    float: right;
+    background-color:#d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página de produtos */
+
+#centroTelaProdutos {
+    background-color: white; 
+    width: 1070px;
+    height: 580px;
+    margin: 7px 0px 0px 0px;
+    padding: 0% 0% 0% 0%;
+}
+
+.pesquisaForcenedor {
+    outline-style: groove;
+    outline-color: antiquewhite;
+    outline-width: 1px;
+    width: 36px;
+    height: 36px;
+    margin: 25px 0px 0px -59px;
+    color: black;
+    padding: 2.5px 0px 0px 5px;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(199, 199, 199)), to(rgb(250, 250, 250)));
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página de configuração */
+
+#centroTelaConfig {
+    background-color: white; 
+    width: 1070px;
+    height: 580px;
+    margin: 7px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.alinhamentoConfig{
+    width: 1070px;
+    height: 640px;
+    margin: -59px 0px 0px 0px;
+
+}
+
+.alinhamentoCamposConfig{
+    text-align: left;
+    padding: 15px 18px 0px 22px;
+    text-align: left;
+}
+
+/* --------------------------------------------------------------------------- */
+/* CSS Referente a página de cadastrar clientes */
+
+.alinhamentoCamposCadastro{
+    text-align: left;
+    padding: 15px 0px 0px 22px;
+    float: left;
+}
+
+.labelMargin{
+    margin: 0px 0px 0px 0px;
+}
+
+.tamanhoCamposCadastro {
+    height: 600px;
+}
+
+.labelMarginValorTotal{
+    margin: 0px 24px 0px 0px;
+}
+
+.labelMarginValorUnit{
+    margin: 0px 0px 0px 30px;
+}
+
+.botoesTelasIntegradas {
+    background-color: white;
+    width: 1070px;
+    height: 67px;
+    margin: 7px 0px 0px 0px;
+    padding: 13px 0px 0px 0px;
+}
+
+#centroTelaCadastro {
+    background-color: white; 
+    width: 1070px;
+    height: 580px;
+    margin: 7px 0px 0px 0px;
+    padding: 0% 0% 0% 0%;
+}
+
+#tamanhoCampoNome{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoEndereco{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoNumero{
+    width: 65px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoComplemento{
+    width: 245px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCidade{
+    width: 201px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoEstado{
+    width: 70px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoBairro{
+    width: 175px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCEP{
+    width: 110px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoDataCad{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoDataAlt{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoTelefone{
+    width: 162px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCelular{
+    width: 162px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoDataNasc{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoEmail{
+    width: 300px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoRG{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoInscMun{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCPF{
+    width: 180px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoSexo{
+    width: 134px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCNPJ{
+    width: 86px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoObs{
+    width: 585px;
+    height: 211px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoObsProd{
+    width: 585px;
+    height: 289px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoID{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoSenha{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoUser{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoTipo{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoRef{
+    width: 228px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoBarras{
+    width: 335px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoUnidade{
+    width: 75px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoPreco{
+    width: 140px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoPrecoTotal{
+    width: 140px;
+    float: right;
+    border-radius: 10px;
+}
+
+#tamanhoCampoMargem{
+    width: 140px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCategoria{
+    width: 139px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoFornecedor{
+    width: 325px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoSituacao{
+    width: 100px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoNomeFornecedor{
+    width: 371px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCidadeFornecedor {
+    width: 142px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoNomeOrcamento {
+    width: 350px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoTelefoneOrcamento {
+    width: 200px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoCPForcamento{
+    width: 233px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoQuantidade{
+    width: 95px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoObsOrcamento {
+    width: 569px;
+    height: 71px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoSituacaoOrcamento {
+    width: 220px;
+    margin: -5px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoDescricao{
+    width: 220px;
+    border-radius: 10px;
+}
+
+#tamanhoCampoFiltroCliente{
+    border-radius: 10px;
+    border: 1px solid #a9a9a9;
+    padding: 0px 0px 0px 10px;
+}

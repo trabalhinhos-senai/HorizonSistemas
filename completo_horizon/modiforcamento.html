@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adicionar Cliente - Horizon Orçamentos - 2019</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bodyCinza">
+    <section class="homeHorizon">
+        <div class="navegacaoHome">
+            <div class="iconesHome">
+                <figure>
+                    <a href="clientes.html">
+                        <div class="alinhamentoIcones">
+                            <img src="./img/clientes.png">
+                            <div class="tituloMenu">
+                                Clientes
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="fornecedor.html">
+                        <div class="alinhamentoIcones">
+                            <img src="./img/fornecedor.png">
+                            <div class="tituloMenu">
+                                Fornecedores
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="orcamentos.html">
+                        <div class="selecionado">
+                            <img src="./img/orcamentos.png">
+                            <div class="tituloMenu">
+                                Orçamentos
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="produtos.html">
+                        <div class="alinhamentoIcones">
+                            <img src="./img/produtos.png">
+                            <div class="tituloMenu">
+                                Produtos
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="sobre.html">
+                        <div class="alinhamentoIcones">
+                            <img src="./img/sobre.png">
+                            <div class="tituloMenu">
+                                Sobre
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <div class="alinhamentoIcones">
+                            <img src="./img/ajuda.png">
+                            <div class="tituloMenu">
+                                Ajuda
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="config.html">
+                        <div class="alinhamentoIcones">
+                            <img src="./img/config.png">
+                            <div class="tituloMenu">
+                                Config
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="tituloJanela">
+            <h1><b>Editar Orçamento</b></h1>
+        </div>
+
+        <div>
+            <form>
+                <div>
+                    <div id="cabecalho">
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoNomeOrcamento">Nome</label>
+                            <br>
+                            <select class="form-control" type="text" name="Nome" id="tamanhoCampoNomeOrcamento">
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoTelefoneOrcamento">Telefone</label>
+                            <br>
+                            <input class="form-control" type="text" name="Telefone" id="tamanhoCampoTelefoneOrcamento">
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoCPForcamento">CPF / CNPJ</label>
+                            <br>
+                            <input class="form-control" type="text" name="CPF / CNPJ" id="tamanhoCampoCPForcamento">
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoDataNasc">Data</label>
+                            <br>
+                            <input class="form-control" type="date" name="Nascimento" id="tamanhoCampoDataNasc"
+                                readonly="readonly">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="centroTelaOrcamentoRolagem">
+                    <div class="barraRolagemOrcamento">
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoDescricao"><b>Descrição</b></label>
+                            <br>
+                            <select class="form-control" type="text" name="Descricao" id="tamanhoCampoDescricao">
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoQuantidade"><b>Quantidade</b></label>
+                            <br>
+                            <input class="form-control" type="text" name="Quantidade" id="tamanhoCampoQuantidade">
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMarginValorUnit" for="tamanhoCampoPreco"><b>Valor Unit</b></label>
+                            <br>
+                            <input class="form-control" type="text" name="Preco" id="tamanhoCampoPreco">
+                        </div>
+                        <div class="alinhamentoCamposExcluirFirst">
+                            <a href="#">
+                                <div class="excluirOrcamento">
+                                    <img src="./img/excluir.png" alt="Excluir">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="alinhamentoCamposPrecoTotal">
+                            <label class="labelMarginValorTotal" for="tamanhoCampoPrecoTotal"><b>Valor Total</b></label>
+                            <br>
+                            <input class="form-control" type="text" name="Preco" id="tamanhoCampoPrecoTotal"
+                                readonly="readonly">
+                        </div>
+
+
+
+
+
+                        <!-- +1 orcamento   +1 orcamento   +1 orcamento   +1 orcamento   +1 orcamento   +1 orcamento   +1 orcamento    -->
+
+                        <div class="alinhamentoCamposCadastro">
+                            <select class="form-control" type="text" name="Descricao" id="tamanhoCampoDescricao">
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <input class="form-control" type="text" name="Quantidade" id="tamanhoCampoQuantidade">
+                        </div>
+                        <div class="alinhamentoCamposCadastro">
+                            <input class="form-control" type="text" name="Preco" id="tamanhoCampoPreco">
+                        </div>
+                        <div class="alinhamentoCamposExcluir">
+                            <a href="#">
+                                <div class="excluirOrcamento">
+                                    <img src="./img/excluir.png" alt="Excluir">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="alinhamentoCamposPrecoTotal">
+                            <input class="form-control" type="text" name="Preco" id="tamanhoCampoPrecoTotal"
+                                readonly="readonly">
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="addOrcamento">
+                            <div>
+                                <img src="./img/adicionar.png" alt="Adicionar" title="Adicionar">
+                            </div>
+                        </button>
+
+                        <div class="alinhamentoCamposCadastro">
+                            <select class="form-control" type="text" name="Situacao" id="tamanhoCampoSituacaoOrcamento">
+                                <option>Situação</option>
+                                <option>Não aprovado</option>
+                                <option>Aprovado</option>
+                                <option>Aguardando Aprovação</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="alinhamentoCampoObs">
+                        <div class="alinhamentoCamposCadastro">
+                            <label class="labelMargin" for="tamanhoCampoObsOrcamento">Observações</label>
+                            <br>
+                            <input class="form-control" type="text" name="Observacoes" id="tamanhoCampoObsOrcamento">
+                        </div>
+                    </div>
+
+                    <div class="alinhamentoCamposPrecoFinal">
+                        <div class="texto">
+                            <div class="alinhamentoTituloPreco">
+                                <label class="labelMargin" for="tamanhoCampoPreco"><b>Valor Total Produtos</b></label><br>
+                            </div>
+                            <div class="alinhamentoTituloPreco">
+                                <label class="labelMargin" for="tamanhoCampoPreco"><b>Valor Adicional</b></label><br>
+                            </div>
+                            <div class="alinhamentoTituloPreco">
+                                <label class="labelMargin" for="tamanhoCampoPreco"><b>Valor Total Orçamento</b></label><br>
+                            </div>
+                        </div>
+
+                        <div class="caixa">
+                            <div class="alinhamentoCamposPrecoFinal1">
+                                <input class="form-control" type="text" name="Valor total" id="tamanhoCampoPreco"
+                                    readonly="readonly">
+                            </div>
+
+                            <div class="alinhamentoCamposPrecoFinal1">
+                                <input class="form-control" type="text" name="Valor adicional" id="tamanhoCampoPreco">
+                            </div>
+
+                            <div class="alinhamentoCamposPrecoFinal1">
+                                <input class="form-control" type="text" name="Valor total orcamento"
+                                    id="tamanhoCampoPreco" readonly="readonly">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="clear"></div>
+
+        <div>
+            <div class="botoesTelasIntegradas">
+                <a href="orcamentos.html">
+                    <div class="fecharTelas">
+                        <img src="./img/cancelar.png" alt="Cancelar" title="Cancelar">
+                    </div>
+                </a>
+
+                <a href="orcamentos.html">
+                    <div class="salvarTelas">
+                        <img src="./img/salvar.png" alt="Salvar" title="Salvar">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

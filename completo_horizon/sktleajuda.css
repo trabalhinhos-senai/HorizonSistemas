@@ -1,0 +1,181 @@
+
+#select{
+font-family: Arial, Helvetica, sans-serif;
+
+font-style:normal;
+font-family:Verdana;
+font-size:22px;
+color:#3a3939;
+width: 700px;
+border-width:2px; 
+border-color: rgb(71, 70, 70);
+
+}
+
+#selectCentro{
+    background-color: white; 
+    width: 1070px;
+    height: 1070px;
+    margin: 16px 0px 0px 0px;
+    padding: 1% 0% 0% 0%;
+}
+
+#selectduvida{
+    background-color: white; 
+    width: 1070px;
+    height: 500px;
+    margin: 16px 0px 0px 0px;
+    padding: 1% 0% 0% 0%;
+}
+
+#letra{
+ color: black;
+}
+
+#label{
+    padding: 5% 0% 0% 13%;
+    text-align: left;
+}
+#label2{
+    padding: 1% 0% 0% 13%;
+    text-align: left;
+}
+
+/* icones pequisar*/
+#pesquisarTelas_ajuda1 {
+    width: 29px;
+    height: 28px;
+    margin: 60px 467px 0px 10px;
+    color: black;
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    background-color: #d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+
+#pesquisarTelas_ajuda2{
+    width: 29px;
+    height: 28px;
+    margin: 14px 510px 0px 10px;
+    color: black;
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    background-color: #d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;
+}
+#pesquisarTelas_ajuda2{width: 29px;
+    height: 28px;
+    margin: 15px 512px 0px 10px;
+    color: black;
+    font-size: 16px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    background-color: #d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;}
+
+#pesquisarTelas_ajuda3{
+        width: 29px;
+        height: 28px;
+        margin: 17px 490px 0px 10px;
+        color: black;
+        font-size: 16px;
+        padding: 0px 0px 0px 0px;
+        float: right;
+        background-color: #d3d3d3;
+        background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+        border-radius: 10px;}
+#pesquisarTelas_ajuda4{
+            width: 29px;
+            height: 28px;
+            margin: 17px 577px 0px 10px;
+            color: black;
+            font-size: 16px;
+            padding: 0px 0px 0px 0px;
+            float: right;
+            background-color: #d3d3d3;
+            background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+            border-radius: 10px;}
+    
+
+
+#img_passos{
+    width:800px;
+    height:500px;
+    border-width: 2px 2px 2px 2px; /* aqui, cada lado possui uma borda de largura diferente */
+    border-style: solid; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+    border-color:   rgb(182, 180, 180 ) rgb(182, 180, 180) rgb(182, 180, 180) rgb(182, 180, 180);
+}
+
+#voltar{
+    width: 60px;
+    height: 40px;
+    margin: 14px 540px 0px 17px;
+    color: black;
+    font-size: 16px;
+    padding: 3px 0px 0px 0px;
+    float: right;
+    background-color: #d3d3d3;
+    background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+    border-radius: 10px;}
+#centro_tela_img{
+        background-color: white; 
+        width: 1070px;
+        height: 650px;
+        margin: 16px 0px 0px 0px;
+        padding: 1% 0% 0% 0%;
+      
+    }
+
+    #duvidas{
+        width: 29px;
+        height: 28px;
+        margin: 30px 490px 0px 0px;
+        color: black;
+        font-size: 16px;
+        padding: 0px 0px 0px 0px;
+        float: right;
+        background-color: #d3d3d3;
+        background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+        border-radius: 10px;} 
+    
+        #duvida_estilo{
+            padding: 30px 0px 0px 100px;
+        text-align: left;
+        }
+     
+
+
+
+        
+
+ #pesquisarTelas_ajuda4_usuario{
+            width: 29px;
+            height: 28px;
+            margin: 14px 370px 0px 10px;
+            color: black;
+            font-size: 16px;
+            padding: 0px 0px 0px 0px;
+            float: right;
+            background-color: #d3d3d3;
+            background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+            border-radius: 10px;
+        }
+
+
+ #pesquisarTelas_ajuda1_usuario{
+            width: 29px;
+            height: 28px;
+            margin: 56px 370px 0px 10px;
+            color: black;
+            font-size: 16px;
+            padding: 0px 0px 0px 0px;
+            float: right;
+            background-color: #d3d3d3;
+            background: -webkit-gradient(linear, center bottom, center top, from(rgb(173, 173, 173)), to(rgb(228, 228, 228)));
+            border-radius: 10px;
+        }
